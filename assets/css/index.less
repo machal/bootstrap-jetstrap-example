@@ -1,14 +1,23 @@
 // Centralni CSS
 
-// Importujeme Bootstrap (BS) + jeho responsivni cast
+
+// --- Importujeme Bootstrap (BS) + jeho responsivni cast ---
 
 @import '../bootstrap/less/bootstrap';
 @import '../bootstrap/less/responsive';
 
-// Prenastavime promenne
 
+// --- Prenastavime promenne ---
+
+// Navigace se schovava az na mobilech
 @navbarCollapseWidth: 480px;
 
+// Grid na 1200px min bude stejny jako defaultni
+@gridColumnWidth1200:     60px;
+@gridGutterWidth1200:     20px;
+
+
+// --- Upravime nasi variantu navigace ---
 
 // Nad 980px ma BS navigace fixni pozici, takze musime pridat 
 // odsazeni zezhora
@@ -31,4 +40,15 @@ body {
 			padding-right: 20px;
 		}			
 	}	
+}
+
+// --- Upravime nasi variantu navigace ---
+
+.container-fluid {
+	max-width: 980px;
+	
+	@media (min-width: 1024px) {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
