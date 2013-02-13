@@ -7914,3 +7914,6 @@ a.badge:focus {
     margin-right: auto;
   }
 }
+.bs-form h2 {
+  text-align: center;
+}
