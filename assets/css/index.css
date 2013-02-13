@@ -7918,6 +7918,17 @@ a.badge:focus {
     padding-top: 60px;
   }
 }
+@font-face {
+  font-family: 'BlueHighwayBold';
+  src: url('bluehighway_bold_czech/blue_highway_bd-webfont.eot');
+  src: url('bluehighway_bold_czech/blue_highway_bd-webfont.eot?#iefix') format('embedded-opentype'), url('bluehighway_bold_czech/blue_highway_bd-webfont.woff') format('woff'), url('bluehighway_bold_czech/blue_highway_bd-webfont.ttf') format('truetype'), url('bluehighway_bold_czech/blue_highway_bd-webfont.svg#DroidSerif') format('svg');
+}
+h1,
+h2,
+h2 {
+  font-family: 'BlueHighwayBold', sans-serif;
+  font-weight: normal;
+}
 @media (min-width: 481px) and (max-width: 767px) {
   .navbar-fixed-top {
     margin-left: 0;
@@ -7950,5 +7961,5 @@ a.badge:focus {
 }
 .hero-unit h1 {
   color: white;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
