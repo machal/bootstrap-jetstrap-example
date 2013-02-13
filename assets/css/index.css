@@ -7922,3 +7922,15 @@ a.badge:focus {
 .bs-form h2 {
   text-align: center;
 }
+.hero-unit {
+  background: url('../bootstrap/img/hero.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.hero-unit h1 {
+  color: white;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
