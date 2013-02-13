@@ -7733,7 +7733,7 @@ a.badge:focus {
     position: static;
   }
 }
-@media (max-width: 979px) {
+@media (max-width: 480px) {
   body {
     padding-top: 0;
   }
@@ -7884,7 +7884,7 @@ a.badge:focus {
     padding-right: 10px;
   }
 }
-@media (min-width: 980px) {
+@media (min-width: 481px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
@@ -7893,5 +7893,15 @@ a.badge:focus {
 @media (min-width: 980px) {
   body {
     padding-top: 60px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-fixed-top {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-fixed-top .navbar-inner {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
