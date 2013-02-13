@@ -28,15 +28,29 @@
 	}
 }
 
-// --- Upravime nasi variantu navigace ---
+// --- Obrazek na pozadi ---
 
-// Nad 980px ma BS navigace fixni pozici, takze musime pridat 
-// odsazeni zezhora
+body {
+	@media (min-width: 768px) {	
+		background: url('../bootstrap/img/otis_redding.png');
+	}
+}
 
-body {  	
+.content {
+	
+	@media (min-width: 768px) {	
+		background: #fff;
+		padding-bottom: 20px;
+		margin-bottom: 40px;
+		.box-shadow(1px 1px 5px 0 rgba(0,0,0,.5));
+		.border-radius(@borderRadiusLarge);	
+	}
+	
+	// Nad 980px ma BS navigace fixni pozici, takze musime pridat 
+	// odsazeni zezhora	
 	@media (min-width: 980px)	{
 		padding-top: 60px;
-	}
+	}	
 }
 
 // Od 481px do 767px nema nase varianta BS navigace odsazeni, dodelame rucne

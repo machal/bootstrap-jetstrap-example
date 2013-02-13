@@ -7895,8 +7895,26 @@ a.badge:focus {
 .container-fluid h3 {
   color: #00a287;
 }
-@media (min-width: 980px) {
+@media (min-width: 768px) {
   body {
+    background: url('../bootstrap/img/otis_redding.png');
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    background: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+}
+@media (min-width: 980px) {
+  .content {
     padding-top: 60px;
   }
 }
